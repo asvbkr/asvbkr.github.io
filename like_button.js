@@ -14,9 +14,9 @@ class LikeButton extends React.Component {
         console.log(2)
         console.log(window.WebApp.platform)
         console.log(3)
-        console.log(indow.WebApp.initData)
+        console.log(window.WebApp.initData)
         console.log(4)
-        console.log(indow.WebApp.initDataUnsafe)
+        console.log(window.WebApp.initDataUnsafe)
         console.log(5)
         if (this.state.liked) {
             // return <div>This is a static text content.</div>;
